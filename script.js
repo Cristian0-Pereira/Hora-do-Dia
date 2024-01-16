@@ -7,7 +7,7 @@ function carregar() {
     var data = new Date()
     var hora = data.getHours()
     // Hora completa abaixo
-    hora = hora<10?"0"+hora:hora
+    hora = hora<10?"0"+ hora:hora
     var min = data.getMinutes()
     min = min<10?"0" + min:min
     var seg = data.getSeconds()
