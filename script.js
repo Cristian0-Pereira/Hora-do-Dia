@@ -28,8 +28,10 @@ function carregar() {
         //Boa noite
         imagem.src = "img/noite.jpg"
         document.body.style.background = "#383737"
-        document.querySelector('a').style.color = '#fff'
-        document.querySelector('header').style.color = '#fff'
+        document.querySelector('a.txt').style.color = '#fff'
+        document.querySelector('.txt').style.color = '#fff'
+        let link = document.querySelector('.link')
+        link.setAttribute('class', 'filter')
         saudacao.innerHTML = `Boa noite <strong>${nome}</strong>!!!`
     }
 }
